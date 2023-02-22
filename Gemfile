@@ -44,7 +44,6 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
-gem "simple_form", github: "heartcombo/simple_form"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -62,5 +61,3 @@ group :development do
   # gem "spring"
 end
 
-gem 'rspec-rails', group: [ :test ]
-gem 'rails-controller-testing', group: [ :test ]
